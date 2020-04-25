@@ -1,0 +1,37 @@
+这一题很简单
+图片直接给了一个公式：2^38
+即用python计算2的38次方
+直接打开powershell
+>python
+>>>2**38
+
+得出答案
+
+但是得出答案以后呢？
+这个答案在哪输入呢？
+打开网页的源代码
+（解这个网站的题目的第一步总是：查看网页的源代码）
+
+发现
+<p>Hint: try to change the URL address.
+即：试图更改下URL
+
+观察URL：
+http://www.pythonchallenge.com/pc/def/0.html
+
+发现网址不变的是部分是
+http://www.pythonchallenge.com/pc/def/***.html
+
+所以更改项总是***
+因此将答案带入***
+进入该网址
+进入下一题！
+
+
+ps:
+将2**38带入更改项进入界面会发现：
+give the answer, not the question.
+这很明显是作者的提示 ，因为你所想的答案很接近真正的答案了
+而后面做题发现：
+作者很用心地将靠近的答案也可以用html打开，然后给予提示
+所以不要一直坐在那想，将你所想的答案带入更改项，可能会得到作者给予的提示
